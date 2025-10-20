@@ -15,7 +15,7 @@
 
 - 최근 5일 간의 주가 변동 정보(시가, 고가, 저가, 종가, 거래량) 콘솔 출력
 - 최근 30일 간의 종가 변화를 라인 그래프로 시각화
-
+- **Pandas** 라이브러리를 활용해 데이터를 DataFrame으로 변환하고, **Excel 파일(xlsx)**로 저장
 ✅ **시각화 (Matplotlib)**
 
 - 한글 폰트(`맑은 고딕`) 적용으로 깨짐 없이 제목 표시
@@ -25,7 +25,7 @@
 ## 🧠 사용 기술
 
 | 언어           | Pycharm(Python) |
-| 주요 라이브러리 | requests, json, matplotlib |
+| 주요 라이브러리 | requests, json, matplotlib, pandas,openpyxl |
 | 데이터 출처     | [Alpha Vantage API](https://www.alphavantage.co/) |
 | 출력 형식       | 텍스트 + 그래프 시각화 |
 
